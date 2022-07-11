@@ -16,11 +16,11 @@ export function LogOrSignPanel() {
             <h2>Log In</h2>
             <div className="inputContainer">
                 <h3>Username</h3>
-                <input placeholder='username'/>
+                <input/>
             </div>
             <div className="inputContainer">
                 <h3>Password</h3>
-                <input placeholder='password'/>
+                <input />
             </div>
             <div className='inputContainer'>
                 <h3>Don't have an account?</h3>
@@ -33,19 +33,19 @@ export function LogOrSignPanel() {
             <h2>Sign Up</h2>
             <div className="inputContainer">
                 <h3>Username</h3>
-                <input placeholder='username'/>
+                <input/>
             </div>
             <div className="inputContainer">
                 <h3>Email</h3>
-                <input placeholder='email'/>
+                <input />
             </div>
             <div className="inputContainer">
                 <h3>Password</h3>
-                <input placeholder='password'/>
+                <input />
             </div>
             <div className='inputContainer'>
                 <h3>Already have an account?</h3>
-                <button className="logSwitchLogBtn" onClick={(e)=>changeLogSign(true)}>Sign Up</button>
+                <button className="logSwitchLogBtn" onClick={(e)=>changeLogSign(true)}>Log In</button>
             </div>
         </div>
         }
