@@ -1,0 +1,116 @@
+h1 {
+  font-size: 10vh;
+  font-weight: 900;
+  color: white;
+}
+
+h3 {
+  font-weight: 400;
+  margin: 0;
+  color: white;
+}
+
+.splashContainer {
+  background-image: url('./images/bg-image-logorsign.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 640px) {
+  .splashContainer {
+    flex-direction: column;
+  }
+}
+
+.splashColLeft {
+  width: 80vw;
+  margin-left: 10vh;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 640px) {
+  .splashColLeft {
+    justify-content: center;
+    margin: 0 auto 0 auto;
+  }
+}
+
+.splashColRight {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30vh;
+}
+
+.splashColRight>h1 {
+  font-size: 12vh;
+  font-weight: 800;
+  color: white;
+  margin: 0px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+
+/* Login/Sign up Panel */
+
+.logContainer {
+  position: relative;
+  margin-right: 0px;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 640px) {
+  .logContainer {
+    text-align: center;
+  }
+}
+
+.logContainer>h1 {
+  font-family: 'Anton', sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.logContainer>h2 {
+  color: white;
+}
+
+.inputContainer {
+  margin: 2vh 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Responsive layout */
+@media (max-width: 640px) {
+  .inputContainer {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+input {
+  width: 90%;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.257);
+  border: none;
+  color: white;
+}
+
+.logSwitchLogBtn {
+  width: 90%;
+  height: 45px;
+  background-image: linear-gradient(rgb(255, 115, 0), rgb(255, 0, 51));
+  border: none;
+  color: white;
+}
+
+.logSwitchLogBtn:hover {
+  background-image: linear-gradient(rgb(255, 153, 70),rgb(255, 62, 100));
+}
