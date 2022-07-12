@@ -37,7 +37,7 @@ export function LogOrSignPanel() {
             </div>
             <div className="inputContainer">
                 <h3>Email</h3>
-                <input />
+                <input input type="email"/>
             </div>
             <div className="inputContainer">
                 <h3>Password</h3>
