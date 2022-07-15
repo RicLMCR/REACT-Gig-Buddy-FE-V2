@@ -77,7 +77,7 @@ h3 {
 
 .logContainer {
   position: relative;
-  margin-right: 0px;
+  margin:0px;
 }
 
 /* Responsive layout */
@@ -91,6 +91,7 @@ h3 {
 .logContainer>h1 {
   font-family: 'Anton', sans-serif;
   font-family: 'Lexend Deca', sans-serif;
+  margin:2vh 0 0 0;
 }
 
 .logContainer>h2 {
@@ -116,6 +117,15 @@ input {
   width: 90%;
   height: 40px;
   background-color: rgba(255, 255, 255, 0.257);
+  border: none;
+  color: white;
+}
+
+.submitBtn {
+  width: 90%;
+  height: 45px;
+  margin-top: 4vh;
+  background-image: linear-gradient(rgb(0, 162, 255), rgb(0, 102, 255));
   border: none;
   color: white;
 }
