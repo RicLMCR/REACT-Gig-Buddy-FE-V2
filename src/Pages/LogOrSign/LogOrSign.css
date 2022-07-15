@@ -124,10 +124,14 @@ input {
 .submitBtn {
   width: 90%;
   height: 45px;
-  margin-top: 4vh;
+  margin-top: 3vh;
   background-image: linear-gradient(rgb(0, 162, 255), rgb(0, 102, 255));
   border: none;
   color: white;
+}
+
+.submitBtn:hover {
+  background-image: linear-gradient(rgb(53, 181, 255),rgb(49, 131, 255));
 }
 
 .logSwitchLogBtn {

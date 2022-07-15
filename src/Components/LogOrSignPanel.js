@@ -60,7 +60,7 @@ export function LogOrSignPanel({ user, setUser }) {
             </div>
             <div className="inputContainer">
                 <h3>Password</h3>
-                <input onChange={(e)=>setPassword(e.target.value)}/>
+                <input type="password" onChange={(e)=>setPassword(e.target.value)}/>
             </div>
             <div className="inputContainer">
                     <button className="submitBtn" type="submit">Submit</button>
